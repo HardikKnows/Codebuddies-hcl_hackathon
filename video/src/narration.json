@@ -1,0 +1,104 @@
+{
+  "voice": "cedar",
+  "instructions": "Voice: confident, warm, professional American English narrator for a premium technology product film. Pace: measured and clear, with natural pauses at commas. Tone: assured and modern, never salesy or over-excited.",
+  "lines": [
+    {
+      "id": "v01",
+      "scene": "vision",
+      "start": 0.6,
+      "text": "Retail is evolving."
+    },
+    {
+      "id": "v02",
+      "scene": "vision",
+      "start": 2.5,
+      "text": "But disconnected data, inconsistent customer experiences, and inventory challenges still slow businesses down."
+    },
+    {
+      "id": "v03",
+      "scene": "vision",
+      "start": 10.3,
+      "text": "Meet RetailPulse AI."
+    },
+    {
+      "id": "s01",
+      "scene": "shopping",
+      "start": 0.4,
+      "text": "RetailPulse AI turns natural-language requests into personalized recommendations, grounded in real product data and store availability."
+    },
+    {
+      "id": "s02",
+      "scene": "shopping",
+      "start": 9.9,
+      "text": "Ask for a laptop for Java development, under ₹80,000, that you can pick up today.",
+      "speak": "Ask for a laptop for Java development, under eighty thousand rupees, that you can pick up today."
+    },
+    {
+      "id": "s03",
+      "scene": "shopping",
+      "start": 16.4,
+      "text": "The assistant turns your words into filters, ranks only real products from the catalog, and pulls live prices and stock straight from the database."
+    },
+    {
+      "id": "t01",
+      "scene": "trust",
+      "start": 0.4,
+      "text": "Answers are grounded in approved retail policies, with traceable sources: the document, the section, and the version."
+    },
+    {
+      "id": "t02",
+      "scene": "trust",
+      "start": 8.6,
+      "text": "Retrieval filters by country, membership tier, and effective date, so customers only see the rules that apply to them."
+    },
+    {
+      "id": "t03",
+      "scene": "trust",
+      "start": 15.2,
+      "text": "And when the evidence is missing, RetailPulse says so clearly, with safeguards instead of guesses."
+    },
+    {
+      "id": "o01",
+      "scene": "operations",
+      "start": 0.4,
+      "text": "From inventory insights to support workflows, AI proposes actions, while secure backend controls enforce permissions and confirmation."
+    },
+    {
+      "id": "o02",
+      "scene": "operations",
+      "start": 9.2,
+      "text": "A cracked screen becomes a high-priority support ticket, created only when the customer presses Confirm."
+    },
+    {
+      "id": "o03",
+      "scene": "operations",
+      "start": 16.0,
+      "text": "Store managers get low-stock alerts and approve AI-proposed stock updates, scoped to their own store."
+    },
+    {
+      "id": "o04",
+      "scene": "operations",
+      "start": 23.1,
+      "text": "And every proposal, confirmation, and denial lands in an append-only audit trail."
+    },
+    {
+      "id": "c01",
+      "scene": "closing",
+      "start": 6.0,
+      "text": "One modular platform: React, FastAPI, and PostgreSQL with pgvector, with every AI output validated on the server.",
+      "speak": "One modular platform: React, Fast A.P.I., and Postgres with P.G. vector, with every AI output validated on the server."
+    },
+    {
+      "id": "c02",
+      "scene": "closing",
+      "start": 15.6,
+      "text": "RetailPulse AI."
+    },
+    {
+      "id": "c03",
+      "scene": "closing",
+      "start": 18.1,
+      "text": "Smarter shopping. Connected operations. AI you can trust."
+    }
+  ]
+}
