@@ -1,0 +1,247 @@
+{
+  "login": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {}
+  },
+  "shop-catalog": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {
+      "search": {
+        "x": 264,
+        "y": 40,
+        "w": 662,
+        "h": 40
+      },
+      "store": {
+        "x": 971,
+        "y": 47,
+        "w": 182,
+        "h": 27
+      },
+      "grid": {
+        "x": 384,
+        "y": 390,
+        "w": 313,
+        "h": 28
+      }
+    }
+  },
+  "shop-search": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {
+      "search": {
+        "x": 264,
+        "y": 40,
+        "w": 662,
+        "h": 40
+      }
+    }
+  },
+  "shop-product": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {
+      "title": {
+        "x": 744,
+        "y": 189,
+        "w": 584,
+        "h": 36
+      }
+    }
+  },
+  "shop-availability": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {
+      "availability": {
+        "x": 856,
+        "y": 265,
+        "w": 472,
+        "h": 464
+      }
+    }
+  },
+  "ai-reco-screen": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {}
+  },
+  "ai-reco": {
+    "width": 430,
+    "height": 1267,
+    "boxes": {
+      "conversation": {
+        "x": 17,
+        "y": 187,
+        "w": 397,
+        "h": 969
+      },
+      "interpreted": {
+        "x": 17,
+        "y": 311,
+        "w": 397,
+        "h": 166
+      }
+    }
+  },
+  "ai-policy": {
+    "width": 430,
+    "height": 810,
+    "boxes": {
+      "conversation": {
+        "x": 17,
+        "y": 187,
+        "w": 397,
+        "h": 318
+      },
+      "sources": {
+        "x": 18,
+        "y": 412,
+        "w": 395,
+        "h": 92
+      }
+    }
+  },
+  "ai-fallback": {
+    "width": 430,
+    "height": 810,
+    "boxes": {
+      "conversation": {
+        "x": 17,
+        "y": 167,
+        "w": 397,
+        "h": 207
+      }
+    }
+  },
+  "ai-support-proposal": {
+    "width": 430,
+    "height": 810,
+    "boxes": {
+      "conversation": {
+        "x": 17,
+        "y": 187,
+        "w": 397,
+        "h": 485
+      },
+      "confirm": {
+        "x": 30,
+        "y": 589,
+        "w": 213,
+        "h": 32
+      }
+    }
+  },
+  "ai-support-confirmed-screen": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {}
+  },
+  "ai-support-confirmed": {
+    "width": 430,
+    "height": 810,
+    "boxes": {
+      "conversation": {
+        "x": 17,
+        "y": 187,
+        "w": 397,
+        "h": 429
+      },
+      "done": {
+        "x": 54,
+        "y": 343,
+        "w": 85,
+        "h": 16
+      }
+    }
+  },
+  "ops-overview": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {
+      "lowStock": {
+        "x": 309,
+        "y": 291,
+        "w": 318,
+        "h": 20
+      }
+    }
+  },
+  "ops-inventory": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {}
+  },
+  "ai-stock-proposal": {
+    "width": 430,
+    "height": 810,
+    "boxes": {
+      "conversation": {
+        "x": 17,
+        "y": 167,
+        "w": 397,
+        "h": 386
+      },
+      "confirm": {
+        "x": 30,
+        "y": 470,
+        "w": 189,
+        "h": 32
+      }
+    }
+  },
+  "ai-stock-confirmed-screen": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {}
+  },
+  "ai-stock-confirmed": {
+    "width": 430,
+    "height": 810,
+    "boxes": {
+      "conversation": {
+        "x": 17,
+        "y": 167,
+        "w": 397,
+        "h": 330
+      },
+      "done": {
+        "x": 54,
+        "y": 300,
+        "w": 86,
+        "h": 16
+      }
+    }
+  },
+  "ops-tickets": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {}
+  },
+  "ops-audit": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {}
+  },
+  "ai-reco-asking": {
+    "width": 1440,
+    "height": 810,
+    "boxes": {
+      "request": {
+        "x": 1087,
+        "y": 115,
+        "w": 337,
+        "h": 56
+      },
+      "status": {
+        "x": 1027,
+        "y": 187,
+        "w": 397,
+        "h": 16
+      }
+    }
+  }
+}
