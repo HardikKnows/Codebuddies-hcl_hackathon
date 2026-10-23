@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Brand: violet AI identity. 600 is the primary (#5145CD), 900 the deep indigo (#30266F). */
+  --color-brand-50: #f2f1fd;
+  --color-brand-100: #e6e4fb;
+  --color-brand-200: #cfcbf6;
+  --color-brand-300: #aca5ee;
+  --color-brand-400: #8479e2;
+  --color-brand-500: #6457d8;
+  --color-brand-600: #5145cd;
+  --color-brand-700: #4337b0;
+  --color-brand-800: #382e8c;
+  --color-brand-900: #30266f;
+  --color-brand-950: #1e1748;
+
+  /* Chrome and ink: warm white plane, slate text. Secondary text keeps at least 4.5:1 contrast on white. */
+  --color-surface: #ffffff;
+  --color-plane: #f8f9fc;
+  --color-ink: #1e293b;
+  --color-ink-2: #475569;
+  --color-ink-3: #64748b;
+  --color-hairline: #e2e8f0;
+  --color-baseline: #cbd5e1;
+
+  /* Status: green / amber / red, used the same way everywhere and always paired with an icon and a label */
+  --color-good: #16a34a;
+  --color-good-text: #166534;
+  --color-warning: #d97706;
+  --color-serious: #ea580c;
+  --color-critical: #dc2626;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--color-plane);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    min-height: 100vh;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  /* A visible keyboard focus indicator for everything (components with their own focus ring override it). */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes rp-bounce-dot {
+  0%, 80%, 100% { transform: translateY(0); opacity: 0.35; }
+  40% { transform: translateY(-3px); opacity: 1; }
+}
+
+.rp-typing-dot {
+  animation: rp-bounce-dot 1.2s infinite ease-in-out;
+}
+
+@keyframes rp-slide-in {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.rp-slide-in {
+  animation: rp-slide-in 220ms ease-out;
+}
+
+@keyframes rp-fade-up {
+  from { transform: translateY(8px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.rp-fade-up {
+  animation: rp-fade-up 200ms ease-out;
+}
