@@ -13,6 +13,7 @@ the running app, a synthesized voiceover and a generated music bed.
 
 ```bash
 npm install
+node scripts/music.mjs                       # writes public/audio/music.wav (generated, not in Git)
 npm run dev                                  # Remotion Studio: http://localhost:3000/RetailPulseAI
 npx remotion render RetailPulseAI out/RetailPulseAI.mp4
 ```
@@ -27,4 +28,5 @@ npx remotion render RetailPulseAI out/RetailPulseAI.mp4
 - **Voiceover** (`public/voice/*.wav`, `src/voice-durations.json`): edit `src/narration.json`, then
   `../backend/.venv/bin/python scripts/voiceover.py --only <ids>`. Uses OpenAI `gpt-4o-mini-tts` with the key in `backend/.env`.
   Each line's `start` (seconds into its scene) places it; captions are timed from the clip lengths.
-- **Music** (`public/audio/music.wav`): `node scripts/music.mjs`, synthesized, so there's nothing to license.
+- **Music** (`public/audio/music.wav`): `node scripts/music.mjs`, synthesized, so there's nothing to license. The output is
+  identical on every run, so the WAV is git-ignored; generate it once before rendering.

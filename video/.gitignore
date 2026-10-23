@@ -5,3 +5,6 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Synthesized by scripts/music.mjs (byte-identical on every run), so the 20 MB file stays out of Git.
+public/audio/music.wav
