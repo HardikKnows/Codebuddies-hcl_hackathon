@@ -1,0 +1,92 @@
+[
+  {
+    "file": "online-return-policy-v2026.1.md",
+    "docKey": "online-return-policy",
+    "title": "Online Return Policy",
+    "docType": "RETURN_POLICY",
+    "version": "2026.1",
+    "effectiveDate": "2026-01-01",
+    "expiryDate": "2026-07-01"
+  },
+  {
+    "file": "online-return-policy-v2026.2.md",
+    "docKey": "online-return-policy",
+    "title": "Online Return Policy",
+    "docType": "RETURN_POLICY",
+    "version": "2026.2",
+    "effectiveDate": "2026-07-01"
+  },
+  {
+    "file": "warranty-policy.csv",
+    "docKey": "warranty-policy",
+    "title": "Warranty Policy",
+    "docType": "WARRANTY_POLICY",
+    "version": "2026.1",
+    "effectiveDate": "2026-01-01"
+  },
+  {
+    "file": "shipping-policy-india.md",
+    "docKey": "shipping-policy-in",
+    "title": "Delivery and Shipping Policy (India)",
+    "docType": "SHIPPING_POLICY",
+    "version": "2026.2",
+    "effectiveDate": "2026-04-01",
+    "country": "IN"
+  },
+  {
+    "file": "shipping-policy-uae.txt",
+    "docKey": "shipping-policy-ae",
+    "title": "UAE Delivery Policy",
+    "docType": "SHIPPING_POLICY",
+    "version": "2026.1",
+    "effectiveDate": "2026-01-01",
+    "country": "AE"
+  },
+  {
+    "file": "membership-benefits.json",
+    "docKey": "membership-benefits",
+    "title": "Membership Benefits",
+    "docType": "MEMBERSHIP_BENEFITS",
+    "version": "2026.3",
+    "effectiveDate": "2026-09-01"
+  },
+  {
+    "file": "festive-sale-2026.md",
+    "docKey": "festive-sale-2026",
+    "title": "Festive Sale 2026",
+    "docType": "PROMOTION",
+    "version": "2026.1",
+    "effectiveDate": "2026-10-01",
+    "expiryDate": "2026-11-16",
+    "country": "IN"
+  },
+  {
+    "file": "members-early-access.md",
+    "docKey": "festive-early-access",
+    "title": "Festive Sale Early Access (Gold and Platinum)",
+    "docType": "PROMOTION",
+    "version": "2026.1",
+    "effectiveDate": "2026-10-01",
+    "expiryDate": "2026-11-16",
+    "country": "IN",
+    "membershipTiers": ["GOLD", "PLATINUM"]
+  },
+  {
+    "file": "zentra-x9-user-manual.pdf",
+    "docKey": "manual-zentra-x9",
+    "title": "Zentra X9 5G User Manual",
+    "docType": "PRODUCT_MANUAL",
+    "version": "1.2",
+    "effectiveDate": "2026-03-01",
+    "category": "mobiles",
+    "product": "P201"
+  },
+  {
+    "file": "store-returns-procedure.txt",
+    "docKey": "store-returns-procedure",
+    "title": "In-Store Returns Desk Procedure",
+    "docType": "STORE_PROCEDURE",
+    "version": "2026.1",
+    "effectiveDate": "2026-02-01"
+  }
+]

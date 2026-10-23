@@ -1,0 +1,34 @@
+[
+  {
+    "section": "Standard tier",
+    "tier": "Standard",
+    "eligibility": "Free for every registered customer",
+    "reward_points": "1 point per ₹100 spent",
+    "express_delivery": "₹299 per order",
+    "benefits": ["Free standard delivery on orders of ₹5,000 or more", "Birthday coupon worth ₹250"]
+  },
+  {
+    "section": "Silver tier",
+    "tier": "Silver",
+    "eligibility": "₹25,000 or more spent in the last 12 months",
+    "reward_points": "1.5 points per ₹100 spent",
+    "express_delivery": "₹149 per order (50% off)",
+    "benefits": ["Early access to clearance sales", "Birthday coupon worth ₹500"]
+  },
+  {
+    "section": "Gold tier",
+    "tier": "Gold",
+    "eligibility": "₹75,000 or more spent in the last 12 months",
+    "reward_points": "2 points per ₹100 spent",
+    "express_delivery": "Free express delivery on all orders",
+    "benefits": ["Priority support line", "15-day return window on non-electronics", "Price-drop protection for 7 days during sales"]
+  },
+  {
+    "section": "Platinum tier",
+    "tier": "Platinum",
+    "eligibility": "₹2,00,000 or more spent in the last 12 months",
+    "reward_points": "3 points per ₹100 spent",
+    "express_delivery": "Free express delivery on all orders, including same-day delivery where available",
+    "benefits": ["Dedicated relationship manager", "One free NovaCare+ plan per year", "15-day return window on non-electronics", "Price-drop protection for 7 days during sales"]
+  }
+]

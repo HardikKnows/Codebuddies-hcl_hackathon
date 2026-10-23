@@ -1,0 +1,20 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Hackathon brief is classified "Internal" and this repo is public: never commit it
+use case/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store

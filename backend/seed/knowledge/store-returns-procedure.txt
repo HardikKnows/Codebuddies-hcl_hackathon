@@ -1,0 +1,13 @@
+IN-STORE RETURNS DESK PROCEDURE
+
+ACCEPTING AN ONLINE ORDER RETURN
+Look up the order number in the store system and confirm it was delivered within the return window. Check the product against the Online Return Policy. Photograph the product and packaging before accepting it.
+
+OPENED DEVICES
+For opened phones, laptops and wearables, confirm the device is signed out of all accounts and factory reset, then run the device health check. If the screen or body is damaged, do not accept the return; offer a warranty claim or a damage-on-arrival ticket instead.
+
+ISSUING THE REFUND
+Approve the refund in the store system only after inspection passes. Refunds go to the original payment method. Give the customer the return receipt with the return reference.
+
+ESCALATIONS
+Escalate disputes, suspected fraud, or returns above 50,000 rupees to the store manager before approving.
